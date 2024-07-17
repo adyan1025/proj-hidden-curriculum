@@ -1,9 +1,9 @@
 import json
 import csv
 
-with open('History.json', 'r') as f:
+with open('history.json', 'r') as f:
     browser_history = json.load(f)
-csv_file = "tiktoks.csv"
+csv_file = "tiktoks_v3.csv"
 
 index = 0
 with open(csv_file, mode='w', newline='') as file:
